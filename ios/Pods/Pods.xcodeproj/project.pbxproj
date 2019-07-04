@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F96BFFC49BCCA61CE40E8948AE42A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		1B8A5D450A37F1531CCB6E0E7FD6FAB1 /* Pods-hangmeout-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DAA4E1005C843F54C3B2E27DC3C08F /* Pods-hangmeout-tvOSTests-dummy.m */; };
+		86F834F0E192EB394E34F541CF4443F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		AC77CB86D5D38B761665FBFFA3AD9F46 /* Pods-hangmeoutTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A723F4F4E2A5193336E9DE343D129AC /* Pods-hangmeoutTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7FA13B2F09377EDDD64A2161EA19E50 /* Pods-hangmeout-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A8BF4BD9744624C99C8E063E93171E /* Pods-hangmeout-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B96E57ED0C7903B3BAE3D1A4F8ACFD63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		CBCCF60723682D884D3AF55CB5DCB669 /* Pods-hangmeout-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B53D0D065FC64555669D4179C8E20390 /* Pods-hangmeout-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D191D966C7F58235FEEB266D24560A55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		DD5008A9D269B14F4802B8559ED2531B /* Pods-hangmeout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EF7B517CC38C6446904754926FB5EE /* Pods-hangmeout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5CE5B7708E40A89EC31C205DED4F0E5 /* Pods-hangmeoutTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 298ADEFBA300C7930B9A3C9D934621F8 /* Pods-hangmeoutTests-dummy.m */; };
+		EE1A18D738D9853C27F54163717C64EE /* Pods-hangmeout-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BC8884818107C0DF6B354BE371A738 /* Pods-hangmeout-tvOS-dummy.m */; };
+		FEE1E6421A431C1100C767E1671FB648 /* Pods-hangmeout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC66B46B8A2ADE5447C2E74FEF2CA3CF /* Pods-hangmeout-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10852A7A56F8C52B5A44FC07FC0400E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E21354C21D99CEDD1EE832B1E7F66E;
+			remoteInfo = "Pods-hangmeout-tvOS";
+		};
+		303CEB40AAF09FEC559C194F7FED7F24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1821B510FE4F3AFC370E981B0447E2EE;
+			remoteInfo = "Pods-hangmeout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1307D9EF14F52E57E0EDCF0405577605 /* Pods-hangmeout-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hangmeout-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		176EE481A42D768772638D1BE3FE029E /* Pods-hangmeout-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hangmeout-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		21BC8884818107C0DF6B354BE371A738 /* Pods-hangmeout-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hangmeout-tvOS-dummy.m"; sourceTree = "<group>"; };
+		285C3ACDB7C592E544748343F9CA8B4E /* Pods-hangmeoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hangmeoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		298ADEFBA300C7930B9A3C9D934621F8 /* Pods-hangmeoutTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hangmeoutTests-dummy.m"; sourceTree = "<group>"; };
+		30B36A90D0801D364E37EC8E15E140A2 /* Pods-hangmeout-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hangmeout-tvOS.modulemap"; sourceTree = "<group>"; };
+		36F663EDAB037120872C2A404F2013B3 /* Pods-hangmeoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hangmeoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BE1D85665AA7F036647255915E60AE9 /* Pods_hangmeoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hangmeoutTests.framework; path = "Pods-hangmeoutTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		569BC2076AE06640A5D0719AA4FC9A6A /* Pods-hangmeout-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hangmeout-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		56AA74353FFCA9E3DFBF7FABAAD0E3C1 /* Pods-hangmeout-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hangmeout-tvOS-Info.plist"; sourceTree = "<group>"; };
+		56E0BBB746D73CF8B84E3B29EAE03359 /* Pods-hangmeoutTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hangmeoutTests-Info.plist"; sourceTree = "<group>"; };
+		5F73727CCEA516F38FBDB90F2D9B5FCA /* Pods-hangmeout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hangmeout.modulemap"; sourceTree = "<group>"; };
+		681C2C33AC14189139AE3D5964FF9661 /* Pods_hangmeout_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hangmeout_tvOSTests.framework; path = "Pods-hangmeout-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECC65D3DC8DC1E4DF155DD67F6AE2BC /* Pods-hangmeout-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hangmeout-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		72DAA4E1005C843F54C3B2E27DC3C08F /* Pods-hangmeout-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hangmeout-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		7834B7C2ABFB526CE889C58EBFB0E725 /* Pods-hangmeoutTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hangmeoutTests.modulemap"; sourceTree = "<group>"; };
+		80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80EF7B517CC38C6446904754926FB5EE /* Pods-hangmeout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hangmeout-umbrella.h"; sourceTree = "<group>"; };
+		8A723F4F4E2A5193336E9DE343D129AC /* Pods-hangmeoutTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hangmeoutTests-umbrella.h"; sourceTree = "<group>"; };
+		8AC5109A58C264BA8066C30BC5D82E47 /* Pods-hangmeout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hangmeout.release.xcconfig"; sourceTree = "<group>"; };
+		8F89AE1CE3DED59F9E02949DEAE6B6F9 /* Pods-hangmeout-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hangmeout-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D39A31BA9FC6728F9BB25FF7C8E24E /* Pods-hangmeout-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hangmeout-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3A8BF4BD9744624C99C8E063E93171E /* Pods-hangmeout-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hangmeout-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		AB9215CF380ECD0420A7FD9135D0843E /* Pods-hangmeout-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hangmeout-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE4F83C3C70568446EF316290605401 /* Pods-hangmeout-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hangmeout-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4EB875201D5D939B69CD20D3DD0E9C1 /* Pods-hangmeout-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hangmeout-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B53D0D065FC64555669D4179C8E20390 /* Pods-hangmeout-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hangmeout-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BC66B46B8A2ADE5447C2E74FEF2CA3CF /* Pods-hangmeout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hangmeout-dummy.m"; sourceTree = "<group>"; };
+		D302BBEB7242E0D93786A2F332C9A3E1 /* Pods-hangmeout-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hangmeout-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCD11C21AE790D7997FCC003F66104F6 /* Pods-hangmeout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hangmeout.debug.xcconfig"; sourceTree = "<group>"; };
+		E162294CFD6635803B499E4E26DD84C6 /* Pods_hangmeout_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hangmeout_tvOS.framework; path = "Pods-hangmeout-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88E4925EB08668A8A484E18F3C8A8FA /* Pods-hangmeoutTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hangmeoutTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE3760B0687572B0B9655EB82AC258CA /* Pods-hangmeoutTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hangmeoutTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0F98197F231168D410E9BFCEC8A9BC8 /* Pods-hangmeout-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hangmeout-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		F24F823C020D84F29D03930A116E2D64 /* Pods-hangmeout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hangmeout-Info.plist"; sourceTree = "<group>"; };
+		F91A8874F4F0F796BF221AF8AE9A5A3E /* Pods-hangmeout-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hangmeout-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB83F80972832862E2BF77BF7AE5F352 /* Pods_hangmeout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hangmeout.framework; path = "Pods-hangmeout.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C012079A4A6699BD899EC6C11776D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F96BFFC49BCCA61CE40E8948AE42A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA59ABCEF3971A5168C007D7D38C25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D191D966C7F58235FEEB266D24560A55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA48456CCC9F2CE4FFF9DF429C31F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96E57ED0C7903B3BAE3D1A4F8ACFD63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F534832154E23780B7F8B5805440A4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F834F0E192EB394E34F541CF4443F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B72FD0E83C00AB341E20C7C955AC450 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C3621866F3D366B03F662530C8B097A /* Pods-hangmeout */,
+				F71485F89F404906F5BB26902EE577B3 /* Pods-hangmeout-tvOS */,
+				4162D3C4A25A6DD1623DCCA47F8DBA26 /* Pods-hangmeout-tvOSTests */,
+				6C356321F091B2B13E3B95A96B69E91A /* Pods-hangmeoutTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14719348546264C5589737347C425E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB83F80972832862E2BF77BF7AE5F352 /* Pods_hangmeout.framework */,
+				E162294CFD6635803B499E4E26DD84C6 /* Pods_hangmeout_tvOS.framework */,
+				681C2C33AC14189139AE3D5964FF9661 /* Pods_hangmeout_tvOSTests.framework */,
+				4BE1D85665AA7F036647255915E60AE9 /* Pods_hangmeoutTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C3621866F3D366B03F662530C8B097A /* Pods-hangmeout */ = {
+			isa = PBXGroup;
+			children = (
+				5F73727CCEA516F38FBDB90F2D9B5FCA /* Pods-hangmeout.modulemap */,
+				B4EB875201D5D939B69CD20D3DD0E9C1 /* Pods-hangmeout-acknowledgements.markdown */,
+				8F89AE1CE3DED59F9E02949DEAE6B6F9 /* Pods-hangmeout-acknowledgements.plist */,
+				BC66B46B8A2ADE5447C2E74FEF2CA3CF /* Pods-hangmeout-dummy.m */,
+				F24F823C020D84F29D03930A116E2D64 /* Pods-hangmeout-Info.plist */,
+				80EF7B517CC38C6446904754926FB5EE /* Pods-hangmeout-umbrella.h */,
+				DCD11C21AE790D7997FCC003F66104F6 /* Pods-hangmeout.debug.xcconfig */,
+				8AC5109A58C264BA8066C30BC5D82E47 /* Pods-hangmeout.release.xcconfig */,
+			);
+			name = "Pods-hangmeout";
+			path = "Target Support Files/Pods-hangmeout";
+			sourceTree = "<group>";
+		};
+		4162D3C4A25A6DD1623DCCA47F8DBA26 /* Pods-hangmeout-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F98197F231168D410E9BFCEC8A9BC8 /* Pods-hangmeout-tvOSTests.modulemap */,
+				F91A8874F4F0F796BF221AF8AE9A5A3E /* Pods-hangmeout-tvOSTests-acknowledgements.markdown */,
+				AFE4F83C3C70568446EF316290605401 /* Pods-hangmeout-tvOSTests-acknowledgements.plist */,
+				72DAA4E1005C843F54C3B2E27DC3C08F /* Pods-hangmeout-tvOSTests-dummy.m */,
+				176EE481A42D768772638D1BE3FE029E /* Pods-hangmeout-tvOSTests-Info.plist */,
+				A3A8BF4BD9744624C99C8E063E93171E /* Pods-hangmeout-tvOSTests-umbrella.h */,
+				D302BBEB7242E0D93786A2F332C9A3E1 /* Pods-hangmeout-tvOSTests.debug.xcconfig */,
+				569BC2076AE06640A5D0719AA4FC9A6A /* Pods-hangmeout-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-hangmeout-tvOSTests";
+			path = "Target Support Files/Pods-hangmeout-tvOSTests";
+			sourceTree = "<group>";
+		};
+		6C356321F091B2B13E3B95A96B69E91A /* Pods-hangmeoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				7834B7C2ABFB526CE889C58EBFB0E725 /* Pods-hangmeoutTests.modulemap */,
+				E88E4925EB08668A8A484E18F3C8A8FA /* Pods-hangmeoutTests-acknowledgements.markdown */,
+				EE3760B0687572B0B9655EB82AC258CA /* Pods-hangmeoutTests-acknowledgements.plist */,
+				298ADEFBA300C7930B9A3C9D934621F8 /* Pods-hangmeoutTests-dummy.m */,
+				56E0BBB746D73CF8B84E3B29EAE03359 /* Pods-hangmeoutTests-Info.plist */,
+				8A723F4F4E2A5193336E9DE343D129AC /* Pods-hangmeoutTests-umbrella.h */,
+				285C3ACDB7C592E544748343F9CA8B4E /* Pods-hangmeoutTests.debug.xcconfig */,
+				36F663EDAB037120872C2A404F2013B3 /* Pods-hangmeoutTests.release.xcconfig */,
+			);
+			name = "Pods-hangmeoutTests";
+			path = "Target Support Files/Pods-hangmeoutTests";
+			sourceTree = "<group>";
+		};
+		71BF10D9671F60B91D333968CED34958 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88CC71D6E55F0202A23277A509BCA0 /* iOS */,
+				71BF10D9671F60B91D333968CED34958 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A88CC71D6E55F0202A23277A509BCA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				14719348546264C5589737347C425E47 /* Products */,
+				0B72FD0E83C00AB341E20C7C955AC450 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F71485F89F404906F5BB26902EE577B3 /* Pods-hangmeout-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				30B36A90D0801D364E37EC8E15E140A2 /* Pods-hangmeout-tvOS.modulemap */,
+				A1D39A31BA9FC6728F9BB25FF7C8E24E /* Pods-hangmeout-tvOS-acknowledgements.markdown */,
+				6ECC65D3DC8DC1E4DF155DD67F6AE2BC /* Pods-hangmeout-tvOS-acknowledgements.plist */,
+				21BC8884818107C0DF6B354BE371A738 /* Pods-hangmeout-tvOS-dummy.m */,
+				56AA74353FFCA9E3DFBF7FABAAD0E3C1 /* Pods-hangmeout-tvOS-Info.plist */,
+				B53D0D065FC64555669D4179C8E20390 /* Pods-hangmeout-tvOS-umbrella.h */,
+				AB9215CF380ECD0420A7FD9135D0843E /* Pods-hangmeout-tvOS.debug.xcconfig */,
+				1307D9EF14F52E57E0EDCF0405577605 /* Pods-hangmeout-tvOS.release.xcconfig */,
+			);
+			name = "Pods-hangmeout-tvOS";
+			path = "Target Support Files/Pods-hangmeout-tvOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EBE9099943900E75CE3D61A06DAC5D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCF60723682D884D3AF55CB5DCB669 /* Pods-hangmeout-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465877B264611605464DA06ADC21CD92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC77CB86D5D38B761665FBFFA3AD9F46 /* Pods-hangmeoutTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8F9AC07806ED71D51DE1A5E3E72FCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5008A9D269B14F4802B8559ED2531B /* Pods-hangmeout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6671BA9154E4318D3CA5FFC754E8F255 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FA13B2F09377EDDD64A2161EA19E50 /* Pods-hangmeout-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1821B510FE4F3AFC370E981B0447E2EE /* Pods-hangmeout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70321B5596D6B557845B055B56F7BCA5 /* Build configuration list for PBXNativeTarget "Pods-hangmeout" */;
+			buildPhases = (
+				5D8F9AC07806ED71D51DE1A5E3E72FCB /* Headers */,
+				71D445CB24E88CF1834F9AC01103BF9E /* Sources */,
+				8BA59ABCEF3971A5168C007D7D38C25E /* Frameworks */,
+				D0D7F875938B564088F650E1F20D5E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-hangmeout";
+			productName = "Pods-hangmeout";
+			productReference = FB83F80972832862E2BF77BF7AE5F352 /* Pods_hangmeout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D6D2806F006A37FAB1A866551F0E5AF /* Pods-hangmeout-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FF180EC9F8A62D8AA39BD0002C3F02 /* Build configuration list for PBXNativeTarget "Pods-hangmeout-tvOSTests" */;
+			buildPhases = (
+				6671BA9154E4318D3CA5FFC754E8F255 /* Headers */,
+				B21D9A3650305880543E60CEE24AEAE5 /* Sources */,
+				AAA48456CCC9F2CE4FFF9DF429C31F1E /* Frameworks */,
+				E7264BF4BAEF738EF442EABB2B0DA9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFF13F01602F9E803B900EEB45CB059 /* PBXTargetDependency */,
+			);
+			name = "Pods-hangmeout-tvOSTests";
+			productName = "Pods-hangmeout-tvOSTests";
+			productReference = 681C2C33AC14189139AE3D5964FF9661 /* Pods_hangmeout_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9E21354C21D99CEDD1EE832B1E7F66E /* Pods-hangmeout-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D56EAA36DFFD149E8730994E08B41E /* Build configuration list for PBXNativeTarget "Pods-hangmeout-tvOS" */;
+			buildPhases = (
+				1EBE9099943900E75CE3D61A06DAC5D0 /* Headers */,
+				702144F8234457B0394906E07F5A4628 /* Sources */,
+				79C012079A4A6699BD899EC6C11776D4 /* Frameworks */,
+				FA51F15B9D1EB3C614DE853B749DDD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-hangmeout-tvOS";
+			productName = "Pods-hangmeout-tvOS";
+			productReference = E162294CFD6635803B499E4E26DD84C6 /* Pods_hangmeout_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEF45C0386550DC478F8162F2486E12F /* Pods-hangmeoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BC5B70D616211C3D83BF5B225C3E42 /* Build configuration list for PBXNativeTarget "Pods-hangmeoutTests" */;
+			buildPhases = (
+				465877B264611605464DA06ADC21CD92 /* Headers */,
+				E6EF7ADE367DB7126CB9A8D1879F6EBB /* Sources */,
+				F534832154E23780B7F8B5805440A4C9 /* Frameworks */,
+				C061B3E93D2B7DBBCA803520B6273532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096BE73E957D6BF3F8B56D8ACB880CC4 /* PBXTargetDependency */,
+			);
+			name = "Pods-hangmeoutTests";
+			productName = "Pods-hangmeoutTests";
+			productReference = 4BE1D85665AA7F036647255915E60AE9 /* Pods_hangmeoutTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 14719348546264C5589737347C425E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1821B510FE4F3AFC370E981B0447E2EE /* Pods-hangmeout */,
+				C9E21354C21D99CEDD1EE832B1E7F66E /* Pods-hangmeout-tvOS */,
+				4D6D2806F006A37FAB1A866551F0E5AF /* Pods-hangmeout-tvOSTests */,
+				FEF45C0386550DC478F8162F2486E12F /* Pods-hangmeoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C061B3E93D2B7DBBCA803520B6273532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D7F875938B564088F650E1F20D5E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7264BF4BAEF738EF442EABB2B0DA9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA51F15B9D1EB3C614DE853B749DDD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702144F8234457B0394906E07F5A4628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1A18D738D9853C27F54163717C64EE /* Pods-hangmeout-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D445CB24E88CF1834F9AC01103BF9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE1E6421A431C1100C767E1671FB648 /* Pods-hangmeout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21D9A3650305880543E60CEE24AEAE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8A5D450A37F1531CCB6E0E7FD6FAB1 /* Pods-hangmeout-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF7ADE367DB7126CB9A8D1879F6EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5CE5B7708E40A89EC31C205DED4F0E5 /* Pods-hangmeoutTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096BE73E957D6BF3F8B56D8ACB880CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-hangmeout";
+			target = 1821B510FE4F3AFC370E981B0447E2EE /* Pods-hangmeout */;
+			targetProxy = 303CEB40AAF09FEC559C194F7FED7F24 /* PBXContainerItemProxy */;
+		};
+		6BFF13F01602F9E803B900EEB45CB059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-hangmeout-tvOS";
+			target = C9E21354C21D99CEDD1EE832B1E7F66E /* Pods-hangmeout-tvOS */;
+			targetProxy = 10852A7A56F8C52B5A44FC07FC0400E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		250C0CD6F0C325C734FBFBF6312C0019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F663EDAB037120872C2A404F2013B3 /* Pods-hangmeoutTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hangmeoutTests/Pods-hangmeoutTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hangmeoutTests/Pods-hangmeoutTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26880191608E558D05ED0A0F14B6C185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD11C21AE790D7997FCC003F66104F6 /* Pods-hangmeout.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hangmeout/Pods-hangmeout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hangmeout/Pods-hangmeout.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AC90ED3AACD2D2B3C123BE2F36A9FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9215CF380ECD0420A7FD9135D0843E /* Pods-hangmeout-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hangmeout-tvOS/Pods-hangmeout-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hangmeout-tvOS/Pods-hangmeout-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		8FF4C80EED40824F327DE5AAE34F48B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285C3ACDB7C592E544748343F9CA8B4E /* Pods-hangmeoutTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hangmeoutTests/Pods-hangmeoutTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hangmeoutTests/Pods-hangmeoutTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93097089FC5B1ACFDABCBB4687055ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC5109A58C264BA8066C30BC5D82E47 /* Pods-hangmeout.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hangmeout/Pods-hangmeout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hangmeout/Pods-hangmeout.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		982AFA25515362CF99A289132E7DED60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D302BBEB7242E0D93786A2F332C9A3E1 /* Pods-hangmeout-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hangmeout-tvOSTests/Pods-hangmeout-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hangmeout-tvOSTests/Pods-hangmeout-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB73761EE5171BF4492EB20A98A598C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569BC2076AE06640A5D0719AA4FC9A6A /* Pods-hangmeout-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hangmeout-tvOSTests/Pods-hangmeout-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hangmeout-tvOSTests/Pods-hangmeout-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		E93CBAC0304737E3CA343CB4915AED04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1307D9EF14F52E57E0EDCF0405577605 /* Pods-hangmeout-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hangmeout-tvOS/Pods-hangmeout-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hangmeout-tvOS/Pods-hangmeout-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70321B5596D6B557845B055B56F7BCA5 /* Build configuration list for PBXNativeTarget "Pods-hangmeout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26880191608E558D05ED0A0F14B6C185 /* Debug */,
+				93097089FC5B1ACFDABCBB4687055ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FF180EC9F8A62D8AA39BD0002C3F02 /* Build configuration list for PBXNativeTarget "Pods-hangmeout-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982AFA25515362CF99A289132E7DED60 /* Debug */,
+				CB73761EE5171BF4492EB20A98A598C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BC5B70D616211C3D83BF5B225C3E42 /* Build configuration list for PBXNativeTarget "Pods-hangmeoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF4C80EED40824F327DE5AAE34F48B9 /* Debug */,
+				250C0CD6F0C325C734FBFBF6312C0019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D56EAA36DFFD149E8730994E08B41E /* Build configuration list for PBXNativeTarget "Pods-hangmeout-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC90ED3AACD2D2B3C123BE2F36A9FFC /* Debug */,
+				E93CBAC0304737E3CA343CB4915AED04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_hangmeout_tvOS {
+  umbrella header "Pods-hangmeout-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

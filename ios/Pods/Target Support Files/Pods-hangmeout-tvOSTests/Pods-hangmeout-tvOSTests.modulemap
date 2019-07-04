@@ -1,0 +1,6 @@
+framework module Pods_hangmeout_tvOSTests {
+  umbrella header "Pods-hangmeout-tvOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
