@@ -37,13 +37,13 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* hangmeoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* hangmeoutTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		4CF5144E854B9F340618E37B /* Pods_hangmeout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFB6E16E4615EF6A29BDBFF /* Pods_hangmeout.framework */; };
-		6189A0205CFE54DC81719B05 /* Pods_hangmeoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34002DC7FF0ADE1C194DEB41 /* Pods_hangmeoutTests.framework */; };
+		47F0979F2CD00737F41B25E7 /* libPods-hangmeout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E43C965F8F224A48468D28F3 /* libPods-hangmeout.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		D5B350420D3F071E58E69A67 /* Pods_hangmeout_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74CD4ECA15FED63F2DDDF68 /* Pods_hangmeout_tvOS.framework */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		F8F987411ED215F491A79866 /* libPods-hangmeoutTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 679A9D54C77BBB22A671A1CA /* libPods-hangmeoutTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -345,14 +345,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = hangmeout/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = hangmeout/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		2CFB6E16E4615EF6A29BDBFF /* Pods_hangmeout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hangmeout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* hangmeout-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hangmeout-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* hangmeout-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hangmeout-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		34002DC7FF0ADE1C194DEB41 /* Pods_hangmeoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hangmeoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36186FF5A30BF26CDBA4BC51 /* Pods-hangmeout-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hangmeout-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-hangmeout-tvOSTests/Pods-hangmeout-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		535D0780D3B487AD8FD0B2EF /* Pods-hangmeout-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hangmeout-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-hangmeout-tvOSTests/Pods-hangmeout-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		679A9D54C77BBB22A671A1CA /* libPods-hangmeoutTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hangmeoutTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		9F0E34EE246579A64C9954FF /* Pods-hangmeoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hangmeoutTests.debug.xcconfig"; path = "Target Support Files/Pods-hangmeoutTests/Pods-hangmeoutTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -361,6 +360,7 @@
 		D74CD4ECA15FED63F2DDDF68 /* Pods_hangmeout_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hangmeout_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF3DA6A9DFA9464F3D8AB65 /* Pods-hangmeoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hangmeoutTests.release.xcconfig"; path = "Target Support Files/Pods-hangmeoutTests/Pods-hangmeoutTests.release.xcconfig"; sourceTree = "<group>"; };
 		E1280FB756BC11A90B29EC6B /* Pods-hangmeout-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hangmeout-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-hangmeout-tvOS/Pods-hangmeout-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E43C965F8F224A48468D28F3 /* libPods-hangmeout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hangmeout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -371,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				6189A0205CFE54DC81719B05 /* Pods_hangmeoutTests.framework in Frameworks */,
+				F8F987411ED215F491A79866 /* libPods-hangmeoutTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +392,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				4CF5144E854B9F340618E37B /* Pods_hangmeout.framework in Frameworks */,
+				47F0979F2CD00737F41B25E7 /* libPods-hangmeout.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +496,6 @@
 				9F0E34EE246579A64C9954FF /* Pods-hangmeoutTests.debug.xcconfig */,
 				DAF3DA6A9DFA9464F3D8AB65 /* Pods-hangmeoutTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -563,10 +562,10 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				2CFB6E16E4615EF6A29BDBFF /* Pods_hangmeout.framework */,
 				D74CD4ECA15FED63F2DDDF68 /* Pods_hangmeout_tvOS.framework */,
 				0DE513446F1D408AC95FB9DA /* Pods_hangmeout_tvOSTests.framework */,
-				34002DC7FF0ADE1C194DEB41 /* Pods_hangmeoutTests.framework */,
+				E43C965F8F224A48468D28F3 /* libPods-hangmeout.a */,
+				679A9D54C77BBB22A671A1CA /* libPods-hangmeoutTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
