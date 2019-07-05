@@ -10,6 +10,14 @@ PODS:
   - glog (0.3.5)
   - React (0.59.8):
     - React/Core (= 0.59.8)
+  - react-native-camera (2.11.0):
+    - React
+    - react-native-camera/RCT (= 2.11.0)
+    - react-native-camera/RN (= 2.11.0)
+  - react-native-camera/RCT (2.11.0):
+    - React
+  - react-native-camera/RN (2.11.0):
+    - React
   - React/Core (0.59.8):
     - yoga (= 0.59.8.React)
   - React/CxxBridge (0.59.8):
@@ -50,6 +58,8 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
+  - ReactNativePermissions (1.1.1):
+    - React
   - RNDeviceInfo (2.2.2):
     - React
   - RNI18n (2.0.15):
@@ -63,6 +73,7 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-camera (from `../node_modules/react-native-camera`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -70,6 +81,7 @@ DEPENDENCIES:
   - React/RCTNetwork (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - ReactNativePermissions (from `../node_modules/react-native-permissions`)
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNI18n (from `../node_modules/react-native-i18n`)
   - RNShare (from `../node_modules/react-native-share`)
@@ -90,6 +102,10 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
     :path: "../node_modules/react-native"
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
+  ReactNativePermissions:
+    :path: "../node_modules/react-native-permissions"
   RNDeviceInfo:
     :path: "../node_modules/react-native-device-info"
   RNI18n:
@@ -106,11 +122,13 @@ SPEC CHECKSUMS:
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
   React: 76e6aa2b87d05eb6cccb6926d72685c9a07df152
+  react-native-camera: 0d18706a9fd6d30ece4fa7c9c50fe36f484c54fa
+  ReactNativePermissions: b64e084dff6a5cad51587d38c306f09246246384
   RNDeviceInfo: 1215084f45c1059b031c530281442dc7079ccf0a
   RNI18n: e2f7e76389fcc6e84f2c8733ea89b92502351fd8
   RNShare: 48cf88cadf9ca2143cdaa557c1ec7f8808040ffc
   yoga: 92b2102c3d373d1a790db4ab761d2b0ffc634f64
 
-PODFILE CHECKSUM: fcdf1c80be2a54c52cb5c290bb6f22073a60a08c
+PODFILE CHECKSUM: 4a07910e6aa033635f8e1ddc050cb3b8dae1ef0a
 
 COCOAPODS: 1.7.3
