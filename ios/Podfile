@@ -25,6 +25,8 @@ target 'hangmeout' do
 
   pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
 
+  pod 'RNI18n', :path => '../node_modules/react-native-i18n'
+
   target 'hangmeoutTests' do
     inherit! :search_paths
     # Pods for testing
