@@ -27,6 +27,10 @@ target 'hangmeout' do
 
   pod 'RNI18n', :path => '../node_modules/react-native-i18n'
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'RNShare', :path => '../node_modules/react-native-share'
+
   target 'hangmeoutTests' do
     inherit! :search_paths
     # Pods for testing
