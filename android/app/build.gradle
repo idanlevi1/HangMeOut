@@ -140,6 +140,9 @@ android {
 }
 
 dependencies {
+    implementation project(':appcenter-crashes')
+    implementation project(':appcenter-analytics')
+    implementation project(':appcenter')
     implementation project(':react-native-camera')
     implementation project(':react-native-share')
     implementation project(':react-native-linear-gradient')

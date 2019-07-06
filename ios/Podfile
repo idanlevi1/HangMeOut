@@ -2,6 +2,9 @@
 # platform :ios, '9.0'
 
 target 'hangmeout' do
+  pod 'AppCenter/Crashes', '~> 2.1.0'
+  pod 'AppCenter/Analytics', '~> 2.1.0'
+  pod 'AppCenterReactNativeShared', '~> 2.1.0'
   # Comment the next line if you don't want to use dynamic frameworks
   # use_frameworks!
 
@@ -35,6 +38,7 @@ target 'hangmeout' do
 
   pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
 
+  platform :ios, '9.0'
   target 'hangmeoutTests' do
     inherit! :search_paths
     # Pods for testing
