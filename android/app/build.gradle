@@ -118,10 +118,21 @@ android {
             include "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
         }
     }
+
+    signingConfigs {
+        releaseSigningConfig {
+            storeFile rootProject.file("../keystores/hangmeout.keystore")
+            storePassword System.getenv("Hang270273")
+            keyAlias System.getenv("hamgmeout")
+            keyPassword System.getenv("y53tr9k1")
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.releaseSigningConfig
         }
     }
     // applicationVariants are e.g. debug, release
