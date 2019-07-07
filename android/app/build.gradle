@@ -120,11 +120,13 @@ android {
     }
 
     signingConfigs {
-        releaseSigningConfig {
-            storeFile rootProject.file("../keystores/hangmeout.keystore")
-            storePassword System.getenv("Hang270273")
-            keyAlias System.getenv("hamgmeout")
-            keyPassword System.getenv("y53tr9k1")
+        release {
+            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                storeFile file(MYAPP_RELEASE_STORE_FILE)
+                storePassword MYAPP_RELEASE_STORE_PASSWORD
+                keyAlias MYAPP_RELEASE_KEY_ALIAS
+                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            }
         }
     }
 
@@ -132,7 +134,7 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            signingConfig signingConfigs.releaseSigningConfig
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
