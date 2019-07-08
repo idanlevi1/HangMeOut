@@ -8,12 +8,16 @@
     "ra": "export ENVFILE=.env.dev && react-native run-android",
     "ri": "export ENVFILE=.env.dev && react-native run-ios",
     "ri8": "export ENVFILE=.env.dev && react-native run-ios --simulator='iPhone 8'",
+    "rix": "export ENVFILE=.env.dev && react-native run-ios --simulator='iPhone X'",
     "gradlewc": "cd android  && ./gradlew clean",
     "podi": "cd ios && pod install && cd ..",
     "rmn": "rm -rf node_modules/ && yarn",
     "rmib": "rm -rf ios/build"
   },
   "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "babel-preset-react-native": "^5.0.2",
     "appcenter": "^2.1.0",
     "appcenter-analytics": "^2.1.0",
     "appcenter-crashes": "^2.1.0",

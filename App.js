@@ -5,9 +5,9 @@ import I18n from 'react-native-i18n';
 import LinearGradient from 'react-native-linear-gradient';
 import AwesomeButton from "react-native-really-awesome-button";
 import Share from 'react-native-share'
+import Root from './src/Root';
 
-type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component {
 
   onShare = () => {
     const options = {
@@ -35,7 +35,7 @@ export default class App extends Component<Props> {
         greeting: 'Bonjour!',
       },
     };
-
+    return <Root/>
     return (
       <LinearGradient colors={['#0c669f', '#0c8f6a', '#0c6a']} style={styles.linearGradient}>
         <Text style={styles.welcome}>Welcome to {appName}!</Text>
