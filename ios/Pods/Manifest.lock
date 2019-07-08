@@ -15,6 +15,8 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - RCTRestart (0.0.12):
+    - React
   - React (0.59.8):
     - React/Core (= 0.59.8)
   - react-native-camera (2.11.0):
@@ -67,6 +69,8 @@ PODS:
     - React/RCTBlob
   - ReactNativePermissions (1.1.1):
     - React
+  - RNCAsyncStorage (1.5.0):
+    - React
   - RNDeviceInfo (2.2.2):
     - React
   - RNI18n (2.0.15):
@@ -83,6 +87,7 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - RCTRestart (from `../node_modules/react-native-restart/ios`)
   - react-native-camera (from `../node_modules/react-native-camera`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
@@ -92,6 +97,7 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
   - ReactNativePermissions (from `../node_modules/react-native-permissions`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNI18n (from `../node_modules/react-native-i18n`)
   - RNShare (from `../node_modules/react-native-share`)
@@ -112,12 +118,16 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  RCTRestart:
+    :path: "../node_modules/react-native-restart/ios"
   React:
     :path: "../node_modules/react-native"
   react-native-camera:
     :path: "../node_modules/react-native-camera"
   ReactNativePermissions:
     :path: "../node_modules/react-native-permissions"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-community/async-storage"
   RNDeviceInfo:
     :path: "../node_modules/react-native-device-info"
   RNI18n:
@@ -135,14 +145,16 @@ SPEC CHECKSUMS:
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
+  RCTRestart: 3abdd55016c31254b996e0a55cc14cc2544fa3c1
   React: 76e6aa2b87d05eb6cccb6926d72685c9a07df152
   react-native-camera: 0d18706a9fd6d30ece4fa7c9c50fe36f484c54fa
   ReactNativePermissions: b64e084dff6a5cad51587d38c306f09246246384
+  RNCAsyncStorage: 9436928b444c5f5361960a7eea051a697c244b68
   RNDeviceInfo: 1215084f45c1059b031c530281442dc7079ccf0a
   RNI18n: e2f7e76389fcc6e84f2c8733ea89b92502351fd8
   RNShare: 48cf88cadf9ca2143cdaa557c1ec7f8808040ffc
   yoga: 92b2102c3d373d1a790db4ab761d2b0ffc634f64
 
-PODFILE CHECKSUM: 171aca6b4e21a954e4a8c5ab126d52408295084d
+PODFILE CHECKSUM: eef26a76b8ece886163a621e49ba91236a4098a6
 
 COCOAPODS: 1.7.3

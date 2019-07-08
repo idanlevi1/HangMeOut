@@ -1,11 +1,12 @@
 import React from 'react';
-import { AppState, AsyncStorage, I18nManager, View } from 'react-native';
+import { AppState, I18nManager, View } from 'react-native';
+import AsyncStorage from '@react-native-community/async-storage';
 import App from './routes/App';
 import { AppStore, UserStore, RoutingStore } from './stores';
 import { Alert, Loader } from './components';
 import { observer, Provider, inject } from 'mobx-react/native';
 import { create } from 'mobx-persist'
-// import RNRestart from 'react-native-restart';
+import RNRestart from 'react-native-restart';
 
 const stores = { AppStore, UserStore, RoutingStore };
 const hydrate = create({ storage: AsyncStorage });
@@ -13,12 +14,13 @@ const hydrate = create({ storage: AsyncStorage });
 hydrate('language', AppStore).then(async () => {
   await AppStore.getDictionary()
   hydrate('deviceInfo', UserStore).then(() => {
+    console.log('[Hydrate]', UserStore.getDeviceInfo)
     hydrate('user', UserStore).then(() => {
       hydrate('rtl', AppStore).then(() => {
         if (!AppStore.isRtl && AppStore.language == 'he') {
           console.log('RTL FORCE')
           AppStore.switchToRTL()
-          // RNRestart.Restart();
+          RNRestart.Restart();
         }
         UserStore.hydrateDone();
       })

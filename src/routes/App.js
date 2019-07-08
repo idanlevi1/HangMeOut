@@ -15,7 +15,7 @@ export default class App extends React.Component {
     console.log('[user]:', { ...this.props.UserStore.getUser })
     this.props.UserStore.saveUserInfoData()
     this.props.UserStore.incEntriesNumber()
-    setTimeout(() => { this.setState({ splash: false }) }, 500);
+    setTimeout(() => { this.setState({ splash: false }) }, 1750);
     // setTimeout(() => { this.setState({ loggedIn: true }) }, 500);
   }
 

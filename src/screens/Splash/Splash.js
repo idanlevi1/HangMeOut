@@ -42,7 +42,7 @@ export default class Splash extends React.Component {
     );
 
     return (
-      <LinearGradient start={{ x: 0, y: .5 }} end={{ x: .5, y: 0 }} colors={[GStyle.GREEN, GStyle.ORANGE, GStyle.BEIGEDARK]} style={styles.linearGradient}>
+      <LinearGradient start={{ x: 0, y: .25 }} colors={['#0c669f', '#0c8f6a', '#0c6a']} style={styles.linearGradient}>
         <Animated.View style={[styles.container, { opacity: this.state.opacity }]} >
           <Animated.View style={{ top: yTitleFall, transform: [{ rotate: spinTitle }] }} >
             <Text style={styles.title}>Just Hang</Text>

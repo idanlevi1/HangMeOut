@@ -9,18 +9,6 @@ import Root from './src/Root';
 
 export default class App extends Component {
 
-  onShare = () => {
-    const options = {
-      title: 'Share via',
-      message: 'some message',
-      url: 'some share url',
-      social: Share.Social.WHATSAPP
-    }
-    Share.open(options)
-      .then((res) => { console.log(res) })
-      .catch((err) => { err && console.log(err); });
-  }
-
   render() {
     const systemVersion = DeviceInfo.getSystemVersion();
     const appName = DeviceInfo.getApplicationName()
