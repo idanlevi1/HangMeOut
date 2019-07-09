@@ -13,12 +13,12 @@ export default (styles = StyleSheet.create({
   },
   title: {
     fontSize: 52,
-    color: GStyle.BLACK,
+    color: GStyle.WHITE,
     fontWeight: '500',
   },
   subtitle: {
     fontSize: 26,
-    color: GStyle.BORDO,
+    color: GStyle.WHITE,
   },
   logo: {
     height: GStyle.HEIGHT * 0.22,

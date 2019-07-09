@@ -4,6 +4,7 @@ import { createAnimation, createInterpolate } from '../../utils/Animation';
 import GStyle from '../../utils/GlobalStyles';
 import styles from './Style';
 import LinearGradient from 'react-native-linear-gradient';
+import LottieView from 'lottie-react-native';
 
 export default class Splash extends React.Component {
   constructor(props) {
@@ -44,15 +45,14 @@ export default class Splash extends React.Component {
     return (
       <LinearGradient start={{ x: 0, y: .25 }} colors={['#0c669f', '#0c8f6a', '#0c6a']} style={styles.linearGradient}>
         <Animated.View style={[styles.container, { opacity: this.state.opacity }]} >
-          <Animated.View style={{ top: yTitleFall, transform: [{ rotate: spinTitle }] }} >
+          <Animated.View style={[{ top: yTitleFall, transform: [{ rotate: spinTitle }] }, { zIndex: 2 }]} >
             <Text style={styles.title}>Just Hang</Text>
           </Animated.View>
-          <Animated.View style={{ left: xSubtitleFall, transform: [{ rotate: spinSubtitle }] }} >
-            <Text style={styles.subtitle}>idan</Text>
+          <Animated.View style={[{ left: xSubtitleFall, transform: [{ rotate: spinSubtitle }] }, {  zIndex: 2 }]} >
+            <Text style={[styles.subtitle]}>idan</Text>
           </Animated.View>
-          <Image
-            source={require('../../../assets/images/icon.png')}
-            style={styles.logo} />
+          {/* <LottieView source={require('../../../assets/animations/splash_logo.json')} autoPlay loop /> */}
+          <LottieView source={require('../../../assets/animations/pink_ball.json')} autoPlay />
         </Animated.View>
       </LinearGradient>
     );

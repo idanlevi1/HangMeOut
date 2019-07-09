@@ -43,6 +43,10 @@ target 'hangmeout' do
   platform :ios, '9.0'
   pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
 
+  pod 'lottie-ios', :path => '../node_modules/lottie-ios'
+
+  pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
+
   target 'hangmeoutTests' do
     inherit! :search_paths
     # Pods for testing
