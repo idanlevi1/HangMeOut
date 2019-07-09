@@ -5,6 +5,7 @@ import { Button, HeaderParallax } from '../../components';
 import GStyle from '../../utils/GlobalStyles';
 import Share from 'react-native-share'
 import Api from '../../server/Api'
+import LottieView from 'lottie-react-native';
 
 export default class HOME extends React.Component {
   constructor(props) {
@@ -45,6 +46,11 @@ export default class HOME extends React.Component {
           <TouchableOpacity onPress={this.onShare}>
             <Text style={{ fontSize: 24, color: GStyle.BEIGE }}>Share</Text>
           </TouchableOpacity>
+          <View style={{ flexDirection: 'row' }}>
+            <LottieView style={{ height: 45, margin: 5 }} source={require('../../../assets/animations/instagram_icon.json')} autoPlay loop={false} />
+            <LottieView style={{ height: 45, margin: 5 }} source={require('../../../assets/animations/facebook_icon.json')} autoPlay loop={false} />
+            <LottieView style={{ height: 45, margin: 5 }} source={require('../../../assets/animations/whatsapp_icon.json')} autoPlay loop={false} />
+          </View>
           {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(e => <Text key={e} style={{ color: GStyle.BLACK, fontSize: 24, padding: 5, margin: 10, borderBottomWidth: 1 }}>{e}</Text>)}
         </View>
       </HeaderParallax>
