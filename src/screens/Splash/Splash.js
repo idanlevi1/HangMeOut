@@ -6,6 +6,7 @@ import styles from './Style';
 import LinearGradient from 'react-native-linear-gradient';
 import LottieView from 'lottie-react-native';
 import { observer, inject } from 'mobx-react/native';
+import Color from "color";
 
 @inject('UserStore')
 @observer
@@ -13,7 +14,7 @@ export default class Splash extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      opacity: new Animated.Value(0.25),
+      opacity: new Animated.Value(0.1),
       yValueTitle: new Animated.Value(0),
       xValueSubtitle: new Animated.Value(0),
       spinAnim: new Animated.Value(0.65),
@@ -23,7 +24,7 @@ export default class Splash extends React.Component {
 
   playAnimations = () => {
     Animated.parallel([
-      createAnimation(this.state.opacity, 1, 500, Easing.ease),
+      createAnimation(this.state.opacity, 1, 1500, Easing.ease),
       createAnimation(this.state.spinAnim, 1, 1000, Easing.ease, 500, false),
       createAnimation(this.state.yValueTitle, 1, 1200, Easing.cubic, 300, false),
       createAnimation(this.state.xValueSubtitle, 1, 1000, Easing.linear, 300, false),
@@ -36,7 +37,7 @@ export default class Splash extends React.Component {
     if (isHydrateDone) {
       setTimeout(() => {
         navigation.navigate(UserStore.isUserConnected ? 'App' : 'Auth')
-      }, 1000);
+      }, 3000);
     }
   }
 
@@ -56,9 +57,8 @@ export default class Splash extends React.Component {
       [0, 1],
       ['65%', '0%']
     );
-
     return (
-      <LinearGradient start={{ x: 0, y: .25 }} colors={['#0c669f', '#0c8f6a', '#0c6a']} style={styles.linearGradient}>
+      <LinearGradient start={{ x: 0, y: .01 }} end={{ x: .35, y: .37 }} colors={[GStyle.WHITE, GStyle.TURQUOISE]} style={styles.linearGradient}>
         <Animated.View style={[styles.container, { opacity: this.state.opacity }]} >
           {/* <Animated.View style={[{ top: yTitleFall, transform: [{ rotate: spinTitle }] }, { zIndex: 2 }]} >
             <Text style={styles.title}>Just Hang</Text>
@@ -66,8 +66,8 @@ export default class Splash extends React.Component {
           <Animated.View style={[{ left: xSubtitleFall, transform: [{ rotate: spinSubtitle }] }, {  zIndex: 2 }]} >
             <Text style={[styles.subtitle]}>idan</Text>
           </Animated.View> */}
-          <LottieView source={require('../../../assets/animations/splash_logo.json')} autoPlay loop={false} />
-          {/* <LottieView source={require('../../../assets/animations/pink_ball.json')} autoPlay /> */}
+          <LottieView source={require('../../../assets/animations/pink_ball.json')} autoPlay style={{zIndex: 2, width: 200, left:24, top: -30}} />
+          <LottieView source={require('../../../assets/animations/splash_logo.json')} autoPlay={true} loop={false} style={{zIndex: 3}}/>
         </Animated.View>
       </LinearGradient>
     );
