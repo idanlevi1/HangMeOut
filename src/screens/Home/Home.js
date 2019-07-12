@@ -14,7 +14,7 @@ export default class HOME extends React.Component {
   }
 
   componentDidMount() {
-
+    console.log('Home Screen 🥂');
   }
 
   onShare = () => {

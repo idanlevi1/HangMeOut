@@ -58,10 +58,15 @@ class UserStore {
 
   @action
   cleanUserLocalStorage() {
-    this.user = User;
-    this.promotions = null;
+    this.user.logout();
+    this.promotions = [];
     this.deviceInfo = null;
     console.log('[UserStore]: cleanUserLocalStorage')
+  }
+
+  @computed
+  get isUserConnected() {
+    return this.user.phone && this.user.email && this.user.token;
   }
 
   @computed

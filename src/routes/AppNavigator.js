@@ -1,23 +1,15 @@
-import { createStackNavigator } from 'react-navigation';
+import { createSwitchNavigator } from 'react-navigation';
 import MainDrawerNavigator from '../routes/MainDrawerNavigator';
 import LoginStack from '../routes/stacks/LoginStack';
+import { Splash } from '../screens';
 
-const LoggedInStack = createStackNavigator(
+export default AppNavigator = createSwitchNavigator(
   {
+    AuthLoading: Splash,
     App: MainDrawerNavigator,
+    Auth: LoginStack,
   },
   {
-    headerMode: 'none',
+    initialRouteName: 'AuthLoading',
   }
 );
-
-const NonLoggedStack = createStackNavigator(
-  {
-    Home: LoginStack,
-  },
-  {
-    headerMode: 'none',
-  }
-);
-
-export { LoggedInStack, NonLoggedStack };
