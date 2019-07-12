@@ -5,7 +5,10 @@ import GStyle from '../../utils/GlobalStyles';
 import styles from './Style';
 import LinearGradient from 'react-native-linear-gradient';
 import LottieView from 'lottie-react-native';
+import { observer, inject } from 'mobx-react/native';
 
+@inject('UserStore')
+@observer
 export default class Splash extends React.Component {
   constructor(props) {
     super(props);
@@ -27,7 +30,19 @@ export default class Splash extends React.Component {
     ]).start();
   };
 
+  onHydrateDone = (isHydrateDone) => {
+    const { UserStore, navigation } = this.props
+    console.log('[user 🍟]:', { ...UserStore.getUser })
+    if (isHydrateDone) {
+      setTimeout(() => {
+        navigation.navigate(UserStore.isUserConnected ? 'App' : 'Auth')
+      }, 1000);
+    }
+  }
+
   render() {
+    this.onHydrateDone(this.props.UserStore.isHydrateDone)
+
     const { spinAnim, yValueTitle, xValueSubtitle } = this.state;
     const spinSubtitle = createInterpolate(
       spinAnim,
