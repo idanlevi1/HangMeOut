@@ -24,14 +24,15 @@ const SIZE = {
 };
 
 const COLOR = {
-  RED: 'rgb(255,0,0)',
+  TURQUOISE: 'rgb(49, 170, 150)',
+  ORANGE: 'rgb(252, 171, 16)',
   WHITE: 'rgb(255,255,255)',
+  RED: 'rgb(255,0,0)',
   BLACK: 'rgb(0,0,0)',
   BEIGE: "rgb(238,219,187)",
   BEIGE_LIGHTEN: Color("rgb(238,219,187)").lighten(0.1),
   GREEN: "rgb(1,159,21)",
   PINK: "rgb(233,53,115)",
-  YELLOW: "rgb(247,167,28)",
   CYAN: "rgb(98,215,255)",
   YELLOW_LIGHT: "rgb(255,220,55)",
   BORDO: "rgb(71,5,5)",

@@ -14,10 +14,8 @@ const Styles = StyleSheet.create({
         width: GStyle.WIDTH
     },
     loader: {
-        opacity: 1,
-        height: GStyle.HEIGHT * .3,
-        width: GStyle.WIDTH * .3,
-        padding: GStyle.HEIGHT * .25
+        height: GStyle.HEIGHT * .4,
+        width: GStyle.WIDTH * .4,
     }
 });
 
