@@ -6,6 +6,7 @@ import GStyle from '../../utils/GlobalStyles';
 import Share from 'react-native-share'
 import Api from '../../server/Api'
 import LottieView from 'lottie-react-native';
+// import RNStoryShare from "react-native-story-share";
 
 export default class HOME extends React.Component {
   constructor(props) {
@@ -36,6 +37,24 @@ export default class HOME extends React.Component {
     }
   }
 
+  onShareInstagram = () => {
+    // RNStoryShare.isInstagramAvailable()
+    //   .then(isAvailable => {
+
+    //     if (isAvailable) {
+    //       RNStoryShare.shareToInstagram({
+    //         type: RNStoryShare.BASE64, // or RNStoryShare.FILE
+    //         attributionLink: 'https://myproject.com',
+    //         backgroundAsset: 'data:image/png;base64,iVBO...',
+    //         stickerAsset: 'data:image/png;base64,iVBO...',
+    //         backgroundBottomColor: '#f44162',
+    //         backgroundTopColor: '#f4a142'
+    //       });
+    //     }
+    //   })
+    //   .catch(e => console.log(e));
+  }
+
   render() {
     return (
       <HeaderParallax
@@ -45,6 +64,9 @@ export default class HOME extends React.Component {
         <View style={{ backgroundColor: GStyle.BEIGE_LIGHTEN }}>
           <TouchableOpacity onPress={this.onShare}>
             <Text style={{ fontSize: 24, color: GStyle.BEIGE }}>Share</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={this.onShareInstagram}>
+            <Text style={{ fontSize: 24, color: GStyle.ORANGE }}>Instagram Share</Text>
           </TouchableOpacity>
           <View style={{ flexDirection: 'row' }}>
             <LottieView style={{ height: 45, margin: 5 }} source={require('../../../assets/animations/instagram_icon.json')} autoPlay loop={false} />
