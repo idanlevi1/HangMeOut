@@ -28,7 +28,7 @@
     "mobx": "3.4.0",
     "mobx-persist": "^0.4.1",
     "mobx-react": "^4.3.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "react": "16.8.3",
     "react-native": "0.59.8",
     "react-native-camera": "^2.11.0",
